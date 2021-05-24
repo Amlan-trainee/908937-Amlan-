@@ -1,0 +1,35 @@
+<h3>Angular Learning</h3>
+<hr>
+<h3>Edit Employee</h3>
+<div class="Container">
+<form [formGroup]="frm" (ngSubmit)="postData();">
+    <div class="form-group">
+        <label>Name</label><br>
+        <input type="text" name="name" formControlName="name">
+        <br>
+    </div>
+    <div class="form-group">
+        <label>Skill</label><br>
+        <input type="text" name="skill" formControlName="skill">
+        <br>
+    </div>
+    <div class="form-group">
+        <label>Salary</label><br>
+        <input type="number" formControlName="salary">
+        <br>
+    </div>
+    <div class="form-group">
+        <label>Permanent</label><br>
+        <input type="text" name="permanent" formControlName="permanent">
+        <br>
+    </div>
+    <div class="form-group">
+        <label>Department</label><br>
+        <select formControlName="department">
+            <option *ngFor="let department of departments" [ngValue]="department">{{department}}</option>
+        </select>
+        <br><br>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
