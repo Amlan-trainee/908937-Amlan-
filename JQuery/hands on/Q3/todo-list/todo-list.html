@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="ToDoListcss.css">
@@ -6,14 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
-    <h1>To-Do List</h1><br>
-    <h4>Task:</h4>
-    <input type="text" id="name">
-    <br>
-    <input type="button" value="Add task" id="btn">
+    
+    <h1><strong>To-Do List</strong></h1><br>
+    <table>
+        <tr>
+            Task:<input type="text" id="name">
+        </tr>
+        <td>
+            <input type="button" value="Add task" id="btn">
+        </td>
+    </table>
     <p>Todays task are :</p>
     <p id="val"></p>
     <script type="text/javascript">
@@ -21,7 +26,9 @@
                 $('#btn').click(function() {  
                     var txt1 = $('#name');  
                     if (txt1.val() != null && txt1.val() != '') {  
-                        var x=document.getElementById("name").value;
+                        var x = document.getElementById("name").value;
+               
+                  
                         $('#val').text(x);
                     } else {  
                         alert("Enter Task Details!!")
