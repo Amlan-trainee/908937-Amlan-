@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsLib", "C:\Users\AMLAN\Desktop\nunitlibraries\CollectionsLib\CollectionsLib.csproj", "{EE7E3E2A-3F1F-45FE-BDBF-1B0E78BBE229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionLib.Tests", "CollectionLib.Tests\CollectionLib.Tests.csproj", "{9AF9FF29-BF60-4321-B7D3-FBA93B9C782A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE7E3E2A-3F1F-45FE-BDBF-1B0E78BBE229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7E3E2A-3F1F-45FE-BDBF-1B0E78BBE229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7E3E2A-3F1F-45FE-BDBF-1B0E78BBE229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7E3E2A-3F1F-45FE-BDBF-1B0E78BBE229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF9FF29-BF60-4321-B7D3-FBA93B9C782A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF9FF29-BF60-4321-B7D3-FBA93B9C782A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF9FF29-BF60-4321-B7D3-FBA93B9C782A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF9FF29-BF60-4321-B7D3-FBA93B9C782A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {880E2E6D-33AE-4280-88A2-305830018C4E}
+	EndGlobalSection
+EndGlobal
