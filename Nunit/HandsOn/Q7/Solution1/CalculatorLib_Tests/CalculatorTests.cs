@@ -12,11 +12,11 @@ namespace CalculatorLib_Tests
     public class CalculatorTests
     {
         [Test]
+  
         public void Divide_Test()
         {
             var calc = new Calculator();
-            var res = calc.Divide(2, 0);
-            Assert.Throws<ArgumentException>(() => throw new DivideByZeroException());
+           Assert.Throws<DivideByZeroException>(() => calc.Divide("2,0"));
         } 
   }
 }
