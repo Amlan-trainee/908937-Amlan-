@@ -9,11 +9,12 @@
     <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    
+
     <h1><strong>To-Do List</strong></h1><br>
     <table>
         <tr>
-            Task:<input type="text" id="name" onfocus='this.value=""'>
+            Task:
+            <input type="text" id="name" onfocus='this.value=""'>
         </tr>
         <td>
             <input type="button" value="Add task" id="btn">
@@ -21,19 +22,19 @@
     </table>
     <p>Todays task are :</p>
     <p id="val"></p>
+    
     <script type="text/javascript">
-        $(document).ready(function(){ 
-                $('#btn').click(function() {  
-                    var txt1 = $('#name');  
-                    if (txt1.val() != null && txt1.val() != '') {  
-                        var x = document.getElementById("name").value;
-               
-                  
-                        $('#val').text(x);
-                    } else {  
-                        alert("Enter Task Details!!")
-                    }  
-        })});
-        </script>
+        $(document).ready(function () {
+            $('#btn').click(function () {
+                var txt1 = $('#name').val();
+                if (txt1 != null && txt1 != '') {
+                    $('#val').text(txt1);
+                   
+                } else {
+                    alert("Enter Task Details!!")
+                }
+            })
+        });
+    </script>
 </body>
 </html>
