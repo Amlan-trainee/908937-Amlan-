@@ -16,7 +16,7 @@ namespace CalculatorLib_Tests
         public void Divide_Test()
         {
             var calc = new Calculator();
-           Assert.Throws<DivideByZeroException>(() => calc.Divide("2,0"));
+           Assert.Throws<DivideByZeroException>(() => calc.Divide(2,0));
         } 
   }
 }
