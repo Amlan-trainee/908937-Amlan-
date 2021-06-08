@@ -5,8 +5,8 @@ import {Skill} from "./skills";
 
 const emp:Employee={
     id:101 ,
-    name:"Shivam",
-    salary:20000,
+    name:"Amlan",
+    salary:30000,
     permanent:true,
     department:{
         deptId:202,

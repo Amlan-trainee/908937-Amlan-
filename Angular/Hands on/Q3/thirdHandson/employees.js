@@ -2,8 +2,8 @@
 exports.__esModule = true;
 var emp = {
     id: 101,
-    name: "Shivam",
-    salary: 20000,
+    name: "Amlan",
+    salary: 30000,
     permanent: true,
     department: {
         deptId: 202,
